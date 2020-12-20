@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+ 
+}
+.wrapper ul li img {
+    width: 50%;
+}
+
+.main {
+    flex: 3;
+}
+
+.main h2 {
+    font-size: 32px;
+    margin: 1rem 0;
+    color: #50c6db;
+}
+
+.main p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+}
+
+.main img {
+    width: 100%;
+}
+
+.sidebar {
+    padding: 25px;
+    flex: 1;
+    margin-right: 40px;
+    border-top: 3px solid #693f7e;
+    background-color: #f9f9f9;
+    border-bottom: 3px solid #693f7e;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: .75rem;
+}
+
+.sidebar ul > li {
+    padding: .10rem 0;
+    height: 50%;
+}
